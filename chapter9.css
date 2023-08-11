@@ -5,17 +5,15 @@
  box-sizing: border-box;
 }
 
-.header {
+header {
  height:50px;
  background-color: #FF9A4B;
 }
 
-.step{
+main{
  width: 960px;
  display: flex;
- justify-content: center;
  margin: 50px auto;
- height: 280px;
 }
 
 .step-box  {
@@ -27,8 +25,7 @@
 }
 
 .step-box:last-child{
- margin-right: 30px;
- height: 300px;
+ margin-right: 0;
 }
 
 .step-img1{
@@ -52,11 +49,11 @@
  background-size: cover;
 }
 
-.step-text {
+.title {
  margin: 15px 0 5px;
 }
 
-.category{
+.step-num{
  position: absolute;
  top: 0;
  left: 0;
@@ -64,7 +61,7 @@
  color: #FFFFFF;
 }
 
-.footer{
+footer{
  height: 50px;
  background-color: #AAAAAA;
 }
